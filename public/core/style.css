@@ -1,0 +1,179 @@
+ul#myTab {
+    position: relative;
+}
+
+.nav-link.active {
+    background: #0A083B !important;
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: none;
+    color: #fff !important;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 9px 28px;
+    line-height: 1.6;
+}
+
+.nav-fill .nav-item,
+.nav-fill>.nav-link {
+    flex: inherit !important;
+    text-align: center;
+}
+
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+    border: 1px solid #0A083B;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+.nav-link {
+    color: #0A083B !important;
+    font-weight: 600;
+    padding: 9px 28px;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+    margin-bottom: 1rem;
+}
+
+.currencyDrop {
+    background: #fff !important;
+    padding-left: 10px 20px !important;
+    height: 42px !important;
+    outline-offset: -1px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select#currency_convert {
+    position: absolute;
+    width: auto;
+    border: none;
+    right: -19px;
+    top: 9px;
+}
+
+#currency_convert {
+    -webkit-appearance: none;
+}
+.free-plan-tag img.free-months-notice.p-abs {
+    width: 113px;
+    height: 15px;
+    top: 0px;
+    left: 10px;
+    transform: rotate(-16.2deg);
+    position: relative;
+}
+.free-plan-tag img.curved-arrow {
+    position: relative;
+    top: 9px;
+    left: 66px;
+}
+.free-plan-tag img.straight-arrow {
+    display: none;
+}
+.free-plan-tag {
+    position: relative;
+    top: 17px;
+    width: 22%;
+    margin: 0px 19%;
+}
+@media only screen and (max-width:1199px) {
+    select#currency_convert {
+        position: absolute;
+        width: auto;
+        border: none;
+        right: -115px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    select#currency_convert {
+        position: absolute;
+        width: auto;
+        border: none;
+        right: -80px;
+        margin-top: 0px;
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    select#currency_convert {
+        position: absolute;
+        width: 100%;
+        right: 0 !important;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .d-flex.justify-content-center.planSec {
+        display: block !important;
+    }
+
+    .new-price-item.mb-3.d-inline-block.plan-item {
+        width: 100% !important;
+    }
+
+    .new-price-box {
+        margin: 0 !important;
+    }
+
+    .nav-tabs>li:first-child {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    li.nav-item {
+        width: 100%;
+    }
+}
+select#currency_convert {
+    -webkit-appearance: none;
+    -moz-appearance: window;
+    padding: 2px 17px 2px 2px;
+    border: none;
+    background-image: url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+@media only screen and (max-width: 800px){
+select#currency_convert {
+    position: relative;
+    width: auto;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: normal;
+    display: inline-block;
+    margin: 11px auto;
+    left: 0;
+    right: 0;
+}
+.free-plan-tag {
+    position: relative;
+    top: -43px;
+    left: 0;
+    text-align: center;
+    margin: 0px 39%;
+}
+.free-plan-tag img.free-months-notice.p-abs {
+    width: 85px;
+    top: 20px;
+    left: 0;
+    transform: rotate(360deg);
+    position: relative;
+}
+.free-plan-tag img.curved-arrow {
+    display: none;
+}
+.free-plan-tag img.straight-arrow {
+    display: block;
+    position: relative;
+    top: 29px;
+    margin: 0 auto;
+}
+}
